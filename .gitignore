@@ -1,0 +1,30 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Visual Studio / Rider / IDE
+.vs/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.userprefs
+*.vsp
+*.pdb
+*.opendb
+*.VC.db
+.idea/
+
+# Crash / report files
+sysinfo.txt
+
+# Other
+*.unitypackage
