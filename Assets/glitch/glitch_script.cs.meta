@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 48c048b3becd39f42812f3c371933e79
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - displacementMap: {fileID: 2800000, guid: 782d875c18f9974449134ba0804b1c24, type: 3}
+  - Shader: {fileID: 4800000, guid: 305460b9ce25652478a673b998b119da, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
