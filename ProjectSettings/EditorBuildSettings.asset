@@ -15,10 +15,19 @@ EditorBuildSettings:
     path: Assets/Scenes/01_Lab.unity
     guid: 7222097744f4e994d8ff6e5188551052
   - enabled: 1
-    path: Assets/Scenes/02_EmotionSpace.unity
-    guid: 051d965af98bef644ba629eef8af9b28
+    path: Assets/Scenes/02_Accumulate.unity
+    guid: 4a621333d3f475147b4c4a08c66e3a86
   - enabled: 1
-    path: Assets/Scenes/03_Outro.unity
+    path: Assets/Scenes/03_Stimulate.unity
+    guid: 58863d7a8832f29438c92143c6cbfc1b
+  - enabled: 1
+    path: Assets/Scenes/04_Burst.unity
+    guid: 023695b5ca20bc443a4c2299ae67b6ea
+  - enabled: 1
+    path: Assets/Scenes/05_Purify.unity
+    guid: 764d69ea07d85c540ba9fecbf1d34adf
+  - enabled: 1
+    path: Assets/Scenes/06_Outro.unity
     guid: 92f3b6ab6cfcdff419a89301b1b0b28b
   - enabled: 1
     path: Assets/Scenes/90_Test_LeapMotion.unity
