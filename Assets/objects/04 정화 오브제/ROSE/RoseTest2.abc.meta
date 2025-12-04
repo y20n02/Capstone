@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 581a8666fd8a3dc4a806c0000f8ee9a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath-0/NurbsPath:000:Rose_Green_Petal_Inner_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath-0/NurbsPath:001:Rose_Green_Petal_Outer_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath-0/NurbsPath:002:Rose_Outer_Petal_Hairs_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath-0/NurbsPath:003:Rose_Petal_Red
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath:000:Rose_Green_Petal_Inner_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath:001:Rose_Green_Petal_Outer_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath:002:Rose_Outer_Petal_Hairs_001
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NurbsPath/NurbsPath:003:Rose_Petal_Red
+    second: {fileID: 2100000, guid: ef715f2cd4633c94386e0518dc299267, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f53f5fc499d31e44b9deee84d28a9ee8, type: 3}
+  rootGameObjectId: 
+  rootGameObjectName: 
+  importerVersion: 1
+  streamSettings:
+    normals: 1
+    tangents: 1
+    cameraAspectRatio: 2
+    importVisibility: 1
+    scaleFactor: 5
+    swapHandedness: 1
+    flipFaces: 0
+    interpolateSamples: 1
+    importPointPolygon: 1
+    importLinePolygon: 1
+    importTrianglePolygon: 1
+    importXform: 1
+    importCameras: 1
+    importMeshes: 1
+    importPoints: 0
+    importCurves: 1
+    createCurveRenderers: 1
+  abcStartTime: 0.041666666666666664
+  abcEndTime: 5
+  startTime: 0.041666666666666664
+  endTime: 5
+  importWarning: 
+  firstImport: 0
+  isHDF5: 0
