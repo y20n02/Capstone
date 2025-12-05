@@ -13819,6 +13819,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859505434}
   m_Mesh: {fileID: -3732071465419371542, guid: 35e7683abe8a17640a14a7d6c3cce2e0, type: 3}
+--- !u!1 &860846125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860846127}
+  - component: {fileID: 860846126}
+  m_Layer: 0
+  m_Name: Pixel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &860846126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860846125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279cd5fce7b985043940832cd295af4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StimulatePixelController
+  pixelMaterial: {fileID: 2100000, guid: 2afa1e5b28c4a564ba856ec7b04e67c0, type: 2}
+  startPixelSize: 400
+  endPixelSize: 40
+  maxHits: 20
+--- !u!4 &860846127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860846125}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 143.15933, y: 131.14981, z: 447.22046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861385363
 GameObject:
   m_ObjectHideFlags: 0
@@ -15703,7 +15751,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -15712,7 +15760,7 @@ MonoBehaviour:
   m_RenderPostProcessing: 1
   m_Antialiasing: 1
   m_AntialiasingQuality: 2
-  m_StopNaN: 0
+  m_StopNaN: 1
   m_Dithering: 1
   m_ClearDepth: 1
   m_AllowXRRendering: 1
@@ -23824,7 +23872,19 @@ MonoBehaviour:
   stimulateCooldown: 0.3
   OnStimulateMotion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 860846126}
+        m_TargetAssemblyTypeName: PixelEffectController, Assembly-CSharp
+        m_MethodName: AddHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnStimulateComplete:
     m_PersistentCalls:
       m_Calls:
@@ -42775,3 +42835,4 @@ SceneRoots:
   - {fileID: 155902848}
   - {fileID: 1892078947}
   - {fileID: 1694090650}
+  - {fileID: 860846127}

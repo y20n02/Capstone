@@ -79,7 +79,7 @@ public class MotionTrigger : MonoBehaviour
 
     // ========== Stimulate (자극: 4방향 스와이프) ==========
     [Header("Stimulate Settings")]
-    public int stimulateTargetCount = 15;
+    public int stimulateTargetCount = 20;
 
     [Tooltip("좌우 스와이프 속도 임계값 (mm/s)")]
     public float stimulateSwipeHorizontalThreshold = 1.5f;
@@ -105,6 +105,10 @@ public class MotionTrigger : MonoBehaviour
 
     private int   stimulateCount = 0;
     private float stimulateCooldownTimer = 0f;
+
+    // Stimulate 진행 상황을 다른 스크립트에서 읽기용
+    public int StimulateCount      => stimulateCount;
+    public int StimulateTargetCount => stimulateTargetCount;
 
     // 타이밍/상태
     private float stimulatePhaseTimer = 0f;          // Stimulate에 들어온 뒤 경과 시간
