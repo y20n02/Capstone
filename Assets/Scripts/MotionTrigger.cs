@@ -112,6 +112,10 @@ public class MotionTrigger : MonoBehaviour
     private bool  stimulateHasAnySwipe = false;      // 한 번이라도 스와이프 했는가
     private float stimulateAutoNextTimer = -1f;      // 0보다 크면 자동 이동 카운트다운 중
 
+
+    [Header("Glitch")]
+    public GlitchController glitchController;
+
     // ========== Burst (표출: 손바닥 기준 콕 탭 + 자극량에 따른 연출 분기) ==========
     [Header("Burst Settings")]
     [Tooltip("손바닥이 아래로 내려가는 최소 속도 (mm/s, -Y 방향)")]
@@ -130,13 +134,21 @@ public class MotionTrigger : MonoBehaviour
     [Tooltip("표출 연출이 끝난 뒤 정화 단계로 넘어가기까지 딜레이 (초)")]
     public float burstToPurifyDelay = 5f;
 
-    [Header("Burst Events By Stimulate Level")]
-    public UnityEvent OnBurstWeak;    // 자극 거의 없음
-    public UnityEvent OnBurstNormal;  // 중간
-    public UnityEvent OnBurstStrong;  // 충분히 자극함
+    public void GoToPurify()
+    {
+        currentPhase = Phase.Purify;
+        Debug.Log("영상 종료 → Purify 단계로 전환");
+    }
+
+
+    [Header("Burst Event (단일 연출)")]
+    public UnityEvent OnBurst;
 
     private bool  burstFired = false;
     private float burstToPurifyTimer = -1f;   // 0 이상이면 카운트다운 중
+
+    [Header("Video (Burst 탭으로 재생)")]
+    public VideoSequenceController videoSequence;
 
     // ========== Purify (정화: 올렸다 내리기 3회) ==========
     [Header("Purify Settings")]
@@ -177,16 +189,6 @@ public class MotionTrigger : MonoBehaviour
         {
             Debug.LogWarning("[MotionDetector] provider가 비어있어요. Service Provider(Desktop)를 Inspector에 연결해줘.");
             return;
-        }
-
-        // ★ Burst → Purify 딜레이 타이머 전역 처리
-        if (currentPhase == Phase.Burst && burstFired && burstToPurifyTimer > 0f)
-        {
-            burstToPurifyTimer -= Time.deltaTime;
-            if (burstToPurifyTimer <= 0f)
-            {
-                Debug.Log("[Burst] 표출 연출 종료 → Purify 단계로 이동");
-            }
         }
 
         Frame frame = provider.CurrentFrame;
@@ -453,34 +455,40 @@ public class MotionTrigger : MonoBehaviour
         if (stimulateCooldownTimer <= 0f && swipeNow)
         {
             stimulateCount++;
-            stimulateHasAnySwipe      = true;
-            stimulateSinceFirstSwipe  = 0f;   // 활동 중이니 타이머 리셋
-            stimulateCooldownTimer    = stimulateCooldown;
+            stimulateHasAnySwipe = true;
+            stimulateSinceFirstSwipe = 0f;
+            stimulateCooldownTimer = stimulateCooldown;
 
             string dir = "Unknown";
-            if      (swipeLeft)  dir = "Left";
+            if (swipeLeft) dir = "Left";
             else if (swipeRight) dir = "Right";
-            else if (swipeUp)    dir = "Up";
-            else if (swipeDown)  dir = "Down";
+            else if (swipeUp) dir = "Up";
+            else if (swipeDown) dir = "Down";
 
             Debug.Log($"[Stimulate] Swipe {dir}! count = {stimulateCount}");
             OnStimulateMotion?.Invoke();
+
+            // ★★★ 여기서 글리치 트리거 ★★★
+            if (glitchController != null)
+            {
+                // 0.3초 동안만 치지직
+                glitchController.PulseGlitch(0.6f);
+            }
 
             // 목표 카운트 채우면 → 5초 뒤 Burst로
             if (stimulateCount >= stimulateTargetCount)
             {
                 if (stimulateCount > stimulateTargetCount)
-                    stimulateCount = stimulateTargetCount;   // 혹시 넘쳐도 클램프
+                    stimulateCount = stimulateTargetCount;
 
-                // 자극 결과 미리 계산 (로그용)
                 ComputeStimulateResult();
                 Debug.Log("[Stimulate] 목표치 달성! 5초 뒤 표출 단계(Burst)로 이동 예정");
 
-                // 5초 뒤 자동으로 Burst로 넘어가도록 타이머 시작
-                stimulateAutoNextTimer = stimulateAutoNextDelay;  // Inspector에서 5로 셋
+                stimulateAutoNextTimer = stimulateAutoNextDelay;
                 return;
             }
         }
+
 
         // 2) 타임아웃 조건 ---------------------------
 
@@ -556,43 +564,28 @@ public class MotionTrigger : MonoBehaviour
     // =========================================================
     void UpdateBurst(Vector3 palmVel, float pinch)
     {
-        // 이미 콕 제스처가 한 번 발생했다면 여기서는 아무 것도 안 함
-        // (실제 Purify 이동은 Update() 상단의 타이머에서 처리)
+        // 이미 한 번 탭 인식했으면 더 이상 처리 X
         if (burstFired) return;
 
-        // 아래로 빠르게 찍는 동작인지 확인
-        bool fastTapDown     = palmVel.y < burstTapDownSpeedThreshold;
+        bool fastTapDown = palmVel.y < burstTapDownSpeedThreshold;
         bool smallHorizontal = Mathf.Abs(palmVel.x) < burstMaxHorizontalSpeed &&
                                Mathf.Abs(palmVel.z) < burstMaxHorizontalSpeed;
-        bool palmNotTooFast  = palmVel.magnitude < burstMaxPalmSpeed;
-        bool pinchOn         = pinch > burstMinPinch;   // 살짝 쥔 상태(검지+엄지) 정도
+        bool palmNotTooFast = palmVel.magnitude < burstMaxPalmSpeed;
+        bool pinchOn = pinch > burstMinPinch;
 
         if (fastTapDown && smallHorizontal && palmNotTooFast && pinchOn)
         {
-            burstFired          = true;
-            burstToPurifyTimer  = burstToPurifyDelay;   // ★ 표출 → 정화 카운트다운 시작
+            burstFired = true;
 
-            string burstDesc = "";
-            switch (lastStimulateLevel)
-            {
-                case StimulateLevel.None:
-                    burstDesc = "약한 표출 (자극 거의 없음)";
-                    Debug.Log($"[Burst] {burstDesc} 실행 / count={stimulateCount}, ratio={lastStimulateRatio:F2}");
-                    OnBurstWeak?.Invoke();
-                    break;
+            Debug.Log($"[Burst] 표출 연출 실행 (단일) / count={stimulateCount}, ratio={lastStimulateRatio:F2}");
 
-                case StimulateLevel.Low:
-                    burstDesc = "보통 표출 (자극 일부)";
-                    Debug.Log($"[Burst] {burstDesc} 실행 / count={stimulateCount}, ratio={lastStimulateRatio:F2}");
-                    OnBurstNormal?.Invoke();
-                    break;
+            // 표출 연출(파티클, 사운드 등) 하나만 호출
+            if (OnBurst != null)
+                OnBurst.Invoke();
 
-                case StimulateLevel.High:
-                    burstDesc = "강한 표출 (자극 충분, 맥스 근접 또는 달성)";
-                    Debug.Log($"[Burst] {burstDesc} 실행 / count={stimulateCount}, ratio={lastStimulateRatio:F2}");
-                    OnBurstStrong?.Invoke();
-                    break;
-            }
+            // ▶ 여기서 두 번째 영상 재생 트리거
+            if (videoSequence != null)
+                videoSequence.OnTapTrigger();
         }
     }
 
