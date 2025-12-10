@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89d4755b5bdaa2c4aa165320354a821d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Beaker_B/SM_Beaker_B_250ml_LOD1.prefab
+  uploadId: 403439

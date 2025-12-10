@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3b68c56281b1c1a4dabbc1c2376e55e0
+timeCreated: 1553589538
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Plastic_and_Metal_Trays/M_Metal_Allu.mat
+  uploadId: 403439

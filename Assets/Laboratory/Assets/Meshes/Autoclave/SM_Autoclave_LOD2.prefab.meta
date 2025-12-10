@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ff095646675bbd4eb4fdcf3c55abe96
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Autoclave/SM_Autoclave_LOD2.prefab
+  uploadId: 403439

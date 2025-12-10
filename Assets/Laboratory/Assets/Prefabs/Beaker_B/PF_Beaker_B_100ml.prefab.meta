@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e05d7c1f17c19f46bb1b25e87ac7c30
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Beaker_B/PF_Beaker_B_100ml.prefab
+  uploadId: 403439

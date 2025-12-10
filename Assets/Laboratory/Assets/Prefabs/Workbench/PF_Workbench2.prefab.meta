@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ade0bba6b44a2147b7d1c818a7246c7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Workbench/PF_Workbench2.prefab
+  uploadId: 403439

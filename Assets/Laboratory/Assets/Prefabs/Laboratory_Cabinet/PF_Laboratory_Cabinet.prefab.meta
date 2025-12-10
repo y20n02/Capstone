@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9087b5afedf1d6b46b28c0db1bedb560
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Laboratory_Cabinet/PF_Laboratory_Cabinet.prefab
+  uploadId: 403439

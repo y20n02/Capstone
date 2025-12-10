@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16ed78f2b8821a34cb7ae13e2ab7fc30
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Transfer_Pipette/PF_Transfer_Pipette_03.prefab
+  uploadId: 403439

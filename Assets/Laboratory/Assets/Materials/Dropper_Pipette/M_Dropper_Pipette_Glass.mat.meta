@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abcd280829d11304d9fdb51e29272c74
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Dropper_Pipette/M_Dropper_Pipette_Glass.mat
+  uploadId: 403439

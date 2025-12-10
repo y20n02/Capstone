@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b3ba576b387f27e4a9d434d624eaedd9
+timeCreated: 1553788267
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Probes/SM_Thermal_Probe_Wireless_LOD1.prefab
+  uploadId: 403439

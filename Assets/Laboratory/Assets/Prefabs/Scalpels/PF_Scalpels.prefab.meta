@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 90c7ca7880855aa43995f3cb134ccfd0
+timeCreated: 1551880743
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Scalpels/PF_Scalpels.prefab
+  uploadId: 403439

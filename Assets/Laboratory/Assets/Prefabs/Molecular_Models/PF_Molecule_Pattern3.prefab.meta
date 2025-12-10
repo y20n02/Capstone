@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e27b537aa9242c4479b433d7fad5c8a6
+timeCreated: 1552555336
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Molecular_Models/PF_Molecule_Pattern3.prefab
+  uploadId: 403439

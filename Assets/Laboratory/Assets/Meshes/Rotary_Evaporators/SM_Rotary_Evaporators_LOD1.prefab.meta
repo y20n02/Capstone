@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2620b12e907fd940a8480c6528d47ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Rotary_Evaporators/SM_Rotary_Evaporators_LOD1.prefab
+  uploadId: 403439

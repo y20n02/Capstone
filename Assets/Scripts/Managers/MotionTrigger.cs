@@ -41,6 +41,14 @@ public class MotionTrigger : MonoBehaviour
     public UnityEvent OnIntroComplete;
 
     private float introSteadyTimer = 0f;
+    private bool introDone = false;   // ★ 여러 번 실행 방지
+
+    [Header("Intro UI / Flow")]
+    public CircleLoading introLoading;       // 원형 로딩 UI
+    public GameObject introCheckCanvas;      // 체크 화면 캔버스
+    public GameObject introDistortionObj;    // 왜곡 효과 오브젝트
+    public float introDistortionDuration = 5f;
+
 
     // ========== Accumulate (축적 : 쌓다 제스처) ==========
     [Header("Accumulate Settings")]
@@ -70,6 +78,16 @@ public class MotionTrigger : MonoBehaviour
     // "카운트 1 이상"부터 흐르는 시간
     private float accumulateSinceFirstCount = 0f;
     private bool accumulateHasAnyCount = false;      // 카운트를 한 번이라도 했는가
+
+    // === 축적 연출용 파티클 & 라이트 ===
+    [Header("축적 파티클")]
+    public ParticleSystem paperParticle;          // 한 번 쌓을 때마다 툭툭 떨어지는 종이
+    public ParticleSystem accumulateLoopParticle; // 축적 단계 동안 계속 도는 루프 파티클
+
+    [Header("축적 반짝 파티클 (새로 추가되는 효과)")]
+    public ParticleSystem accumulateSparkParticle;  // ✨ 반짝이 파티클
+    public float sparkRateMin = 2f;                 // 모션 1번쯤일 때 Rate
+    public float sparkRateMax = 14f;                // 맥시멈일 때 Rate
 
     // ========== Stimulate (자극: 4방향 스와이프) ==========
     [Header("Stimulate Settings")]
@@ -249,21 +267,36 @@ public class MotionTrigger : MonoBehaviour
     // =========================================================
     void UpdateIntro(float speed)
     {
+        if (introDone) return;   // 이미 끝났으면 무시
+
         if (speed < introSpeedThreshold)
         {
+            // 손이 거의 안 움직이면 타이머 증가
             introSteadyTimer += Time.deltaTime;
 
+            // 0~1 비율 계산해서 로딩 UI 채우기
+            float ratio = Mathf.Clamp01(introSteadyTimer / introRequiredSteadyTime);
+            if (introLoading != null)
+                introLoading.SetProgress(ratio);
+
+            // 5초 채워졌으면 완료 처리
             if (introSteadyTimer >= introRequiredSteadyTime)
             {
-                Debug.Log("[Intro] 5초 유지 완료! Accumulate 단계로 이동");
+                introDone = true;
+                Debug.Log("[Intro] 5초 유지 + 로딩 100% 완료!");
 
-                OnIntroComplete?.Invoke();          // 필요하면 UI용 이벤트
-                introSteadyTimer = 0f;
+                OnIntroComplete?.Invoke();       // 필요하면 그대로 사용
+
+                // 인트로 이후 흐름 (체크 → 왜곡 5초 → 다음 씬)
+                StartCoroutine(IntroFlow());
             }
         }
         else
         {
+            // 손이 흔들리면 타이머/로딩 리셋
             introSteadyTimer = 0f;
+            if (introLoading != null)
+                introLoading.ResetProgress();
         }
     }
 
@@ -279,7 +312,6 @@ public class MotionTrigger : MonoBehaviour
         if (accumulateHasAnyCount)
             accumulateSinceFirstCount += Time.deltaTime;
 
-        // 1) “쌓았다” 제스처 인식 (손바닥 아래 + 위로 올리기)
         bool palmFacingDown = (palmNormal.y < accumulatePalmNormalDown);
         bool movingUpFast = (palmVel.y > accumulateDownSpeedThreshold);
 
@@ -290,13 +322,27 @@ public class MotionTrigger : MonoBehaviour
         {
             accumulateCount++;
             accumulateHasAnyCount = true;
-            accumulateSinceFirstCount = 0f;      // 첫 카운트 또는 다시 활동 시작
+            accumulateSinceFirstCount = 0f;
             accumulateCooldownTimer = accumulateCooldown;
 
             Debug.Log($"[Accumulate] 쌓았다! count = {accumulateCount}");
             OnAccumulateTrigger?.Invoke();
 
-            // 맥시멈 채웠으면 시간 상관없이 바로 다음 단계
+            // 🔵 여기서 루프 파티클 세기 업데이트!!
+            UpdateAccumulateLoopRate();
+
+            // 1회째부터 루프 파티클 켜기
+            if (accumulateCount == 1 &&
+                accumulateLoopParticle != null &&
+                !accumulateLoopParticle.isPlaying)
+            {
+                accumulateLoopParticle.Play();
+            }
+
+            // 종이 파티클
+            OnAccumulateMotion();
+
+            // ⭐ 맥시멈 도달 시 바로 다음 단계
             if (accumulateCount >= accumulateMaxCount)
             {
                 Debug.Log("[Accumulate] 맥시멈 달성! 다음 단계(Stimulate) 이동");
@@ -307,27 +353,9 @@ public class MotionTrigger : MonoBehaviour
 
         wasUpGesture = upGestureNow;
 
-        // 타임아웃 체크 (카운트 ≥ 1일 때만)
         CheckAccumulateTimeout();
     }
 
-    void CheckAccumulateTimeout()
-    {
-        // 아직 한 번도 쌓지 않았으면(카운트 0) 시간 안 감 → 타임아웃 없음
-        if (!accumulateHasAnyCount)
-            return;
-
-        // 이미 맥시멈 채웠으면 여기 들어오지 않게 처리됨
-        if (accumulateCount >= accumulateMaxCount)
-            return;
-
-        // 첫 카운트 이후 PlayWindow 초가 지나면 자동으로 다음 단계
-        if (accumulateSinceFirstCount >= accumulatePlayWindow)
-        {
-            Debug.Log("[Accumulate] 첫 제스처 이후 제한 시간 초과 → 다음 단계(Stimulate) 이동");
-            OnAccumulateComplete?.Invoke();
-        }
-    }
 
     // =========================================================
     // Stimulate: 4방향 스와이프 (좌 / 우 / 위 / 아래)
@@ -579,6 +607,7 @@ public class MotionTrigger : MonoBehaviour
         }
     }
 
+
     // =========================================================
     // 손이 안 보일 때 상태 리셋
     // =========================================================
@@ -587,6 +616,9 @@ public class MotionTrigger : MonoBehaviour
         if (currentPhase == Phase.Intro)
         {
             introSteadyTimer = 0f;
+            introDone = false;
+            if (introLoading != null)
+                introLoading.ResetProgress();
         }
         else if (currentPhase == Phase.Purify)
         {
@@ -626,6 +658,95 @@ public class MotionTrigger : MonoBehaviour
         purifyExhaleTimer = 0f;
     }
 
+    private System.Collections.IEnumerator IntroFlow()
+    {
+        // 1) 체크 화면 켜기
+        if (introCheckCanvas != null)
+            introCheckCanvas.SetActive(true);
+
+        // 2) 왜곡 효과 켜기
+        if (introDistortionObj != null)
+            introDistortionObj.SetActive(true);
+
+        // 3) 5초 동안 유지
+        yield return new WaitForSeconds(introDistortionDuration);
+
+        // 4) 왜곡 효과 끄기 (필요하면)
+        if (introDistortionObj != null)
+            introDistortionObj.SetActive(false);
+
+        // 5) 다음 씬으로 이동 (원하는 방식 사용)
+        // SceneLoader.LoadAccumulate();  // 네가 쓰는 SceneLoader에 맞게 변경
+        // 혹은
+        // UnityEngine.SceneManagement.SceneManager.LoadScene("AccumulateScene");
+    }
+
+    // =========================================================
+    // Accumulate 모션 시 파티클 연출
+    // =========================================================
+    public void OnAccumulateMotion()
+    {
+        if (paperParticle == null) return;
+
+        // 쌓을수록 더 많이 떨어지도록 (최대 40장)
+        int totalEmit = Mathf.Clamp(5 + accumulateCount * 3, 5, 40);
+
+        StartCoroutine(EmitPaperBurst(totalEmit));
+    }
+
+    private IEnumerator EmitPaperBurst(int totalEmit)
+    {
+        int emitted = 0;
+
+        while (emitted < totalEmit)
+        {
+            // 한 번에 나갈 양 (3장씩 뿌리기)
+            int batch = Mathf.Min(3, totalEmit - emitted);
+
+            paperParticle.Emit(batch);
+            emitted += batch;
+
+            // 0.03~0.05 정도 간격으로 나눠서 떨어지게
+            yield return new WaitForSeconds(0.05f);
+        }
+    }
+
+    void CheckAccumulateTimeout()
+    {
+        // 아직 한 번도 쌓지 않았으면(카운트 0) 시간 안 감 → 타임아웃 없음
+        if (!accumulateHasAnyCount)
+            return;
+
+        // 이미 맥시멈 채웠으면 여기 들어오지 않게 처리됨
+        if (accumulateCount >= accumulateMaxCount)
+            return;
+
+        // 첫 카운트 이후 PlayWindow 초가 지나면 자동으로 다음 단계
+        if (accumulateSinceFirstCount >= accumulatePlayWindow)
+        {
+            Debug.Log("[Accumulate] 첫 제스처 이후 제한 시간 초과 → 다음 단계(Stimulate) 이동");
+            OnAccumulateComplete?.Invoke();
+        }
+    }
+
+    private void UpdateAccumulateLoopRate()
+    {
+        if (accumulateLoopParticle == null)
+            return;
+
+        float t = 0f;
+        if (accumulateMaxCount > 0)
+            t = Mathf.Clamp01((float)accumulateCount / (float)accumulateMaxCount);
+
+        float newRate = Mathf.Lerp(sparkRateMin, sparkRateMax, t);
+
+        var emission = accumulateLoopParticle.emission;
+        emission.rateOverTime = new ParticleSystem.MinMaxCurve(newRate);
+    }
+    // =========================================================
+    // 정화
+    // =========================================================
+
     public void OnRoseFullyBloomed()
     {
         Debug.Log("[Purify] 꽃이 완전히 피었습니다 → 정화 완료");
@@ -637,6 +758,12 @@ public class MotionTrigger : MonoBehaviour
     {
         SceneLoader.LoadPurify();
     }
+
+    public void GoToStimulate()
+    {
+        SceneLoader.LoadStimulate();   // 🔵 여기서 Ripple + 씬 전환 한 번에 처리
+    }
+
 
     // =========================================================
     // Burst Flow: 불꽃 7초 → 울렁 5초(별도 스크립트) → Purify 씬

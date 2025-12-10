@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2409c6839d336774bb0425fe948c8b89
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Room/PF_Door_Frame_A.prefab
+  uploadId: 403439

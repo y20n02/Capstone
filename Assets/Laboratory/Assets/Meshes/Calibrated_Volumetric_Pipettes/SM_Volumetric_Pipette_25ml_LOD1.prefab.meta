@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1878f15ffe9bd4e49871093604b6723a
+timeCreated: 1554196706
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Calibrated_Volumetric_Pipettes/SM_Volumetric_Pipette_25ml_LOD1.prefab
+  uploadId: 403439

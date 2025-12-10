@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2f564b1dd9acf164284c9228f8b561cf
+timeCreated: 1553005884
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Thermocycler/PF_Thermocycler.prefab
+  uploadId: 403439

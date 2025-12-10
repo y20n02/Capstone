@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3953b9a1d75c6f347b960dab97437ebd
+timeCreated: 1552555339
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Molecular_Models/PF_Xantine_Purine_Molecule.prefab
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2eb27566445de9942b1a8ff9d6cc0a5a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Flask/M_Flask.mat
+  uploadId: 403439

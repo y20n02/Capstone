@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d3faaf7fdb662cb4e9fd60e784d2147f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Desiccator/SM_Desiccator_LOD1.prefab
+  uploadId: 403439

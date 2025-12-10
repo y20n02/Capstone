@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b2663a01e60d2f6489590a497fb929ec
+timeCreated: 1552380580
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Test_Tubes/SM_Layed_Test_Tube3_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1869e16a3ec05884d94a6326b8b3f2db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Room/Modular_Door.prefab
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e6b1044c89a69d4eb102b0c879fe366
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Erlenmeyer/PF_Erlenmeyer_Flask_500ml.prefab
+  uploadId: 403439

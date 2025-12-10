@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ba10d3aee7a3a1d4fa125e69a806c099
+timeCreated: 1553594927
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Plastic_and_Metal_Trays/SM_Plastic_Basin_Square_LOD1.prefab
+  uploadId: 403439

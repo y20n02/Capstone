@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 11eaa70ba4db7c54ca0720630ee58b39
+timeCreated: 1552383450
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Syringes/PF_Syringe_1.prefab
+  uploadId: 403439

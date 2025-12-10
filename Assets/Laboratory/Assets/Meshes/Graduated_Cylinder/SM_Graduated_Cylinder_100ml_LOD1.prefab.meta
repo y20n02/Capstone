@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02120acd84a21f34e9522c60bafeda4c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Graduated_Cylinder/SM_Graduated_Cylinder_100ml_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 207d056e63fe49944a08d7fa0a30a88f
+timeCreated: 1553788381
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Probes/PF_Thermal_Probe_Wireless.prefab
+  uploadId: 403439

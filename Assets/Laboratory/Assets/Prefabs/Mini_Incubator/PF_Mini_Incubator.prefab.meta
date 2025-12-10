@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 602605a5a5617ec41b76dc8c671982e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Mini_Incubator/PF_Mini_Incubator.prefab
+  uploadId: 403439

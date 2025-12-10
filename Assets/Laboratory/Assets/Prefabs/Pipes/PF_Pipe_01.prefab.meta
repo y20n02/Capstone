@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbdeddf6abb942d4a82a8cce3007cc8d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Pipes/PF_Pipe_01.prefab
+  uploadId: 403439

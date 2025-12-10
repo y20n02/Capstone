@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2545057e9b51b7449b2a5cfcfd2cd788
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Demo/Laboratory/LightingData.asset
+  uploadId: 403439

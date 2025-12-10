@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0083be76211a15147a749193c72c1669
+timeCreated: 1553767493
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/RoundBottom_Flask/M_CorkSupport.mat
+  uploadId: 403439

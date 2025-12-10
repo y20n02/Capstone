@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 133c9efbb8605d141b12266c79775cd8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Microscope/M_Microscope_Transparency.mat
+  uploadId: 403439

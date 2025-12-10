@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b35199cfe686de34aacc90fa8be8b4dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Slide_Dispenser/M_Slide_Dispenser_Glass.mat
+  uploadId: 403439

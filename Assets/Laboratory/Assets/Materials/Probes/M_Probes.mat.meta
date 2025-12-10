@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8e746d0db2b4ee54fb82821727be4f11
+timeCreated: 1553786162
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Probes/M_Probes.mat
+  uploadId: 403439

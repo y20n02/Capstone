@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af1a23ea2405e594c8f584aea36b2b59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Transfer_Pipette/M_Transfer_Pipette.mat
+  uploadId: 403439

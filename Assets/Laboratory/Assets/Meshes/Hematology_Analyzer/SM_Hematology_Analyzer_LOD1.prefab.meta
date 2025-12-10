@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0fcd3587419f0d488f77c8bd1fd33fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Hematology_Analyzer/SM_Hematology_Analyzer_LOD1.prefab
+  uploadId: 403439

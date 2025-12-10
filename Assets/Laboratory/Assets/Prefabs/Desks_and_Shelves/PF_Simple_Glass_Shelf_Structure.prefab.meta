@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 472bb1e14d6b23a4881cb1b1836fc499
+timeCreated: 1551795641
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Desks_and_Shelves/PF_Simple_Glass_Shelf_Structure.prefab
+  uploadId: 403439

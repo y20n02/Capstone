@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8b44b79b2c729634ca3595eae0558f7d
+timeCreated: 1552554525
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Molecular_Models/SM_Xantine_Purine_Molecule_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 75e9d327ed2a18149be4864bb6ebcb50
+timeCreated: 1554121734
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/RoundBottom_Flask/PF_RoundBottom_Flask100ml.prefab
+  uploadId: 403439

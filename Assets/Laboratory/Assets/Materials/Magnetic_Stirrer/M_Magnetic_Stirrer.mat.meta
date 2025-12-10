@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 016426d4b309d634396b7e33362fb6ad
+timeCreated: 1552471762
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Magnetic_Stirrer/M_Magnetic_Stirrer.mat
+  uploadId: 403439

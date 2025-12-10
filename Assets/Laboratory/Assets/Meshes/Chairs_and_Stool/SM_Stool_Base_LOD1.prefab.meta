@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 942e9a2e96ec65740a74139cf9c6b4a2
+timeCreated: 1553246145
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Chairs_and_Stool/SM_Stool_Base_LOD1.prefab
+  uploadId: 403439

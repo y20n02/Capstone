@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 543bdbe02ce45e347843148e9b0b65ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Props/Modular_Machine.prefab
+  uploadId: 403439

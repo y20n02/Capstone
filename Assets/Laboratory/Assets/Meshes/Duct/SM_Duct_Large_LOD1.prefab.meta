@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f041f3ab315ef544e9d3f39aa6fd3f99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Duct/SM_Duct_Large_LOD1.prefab
+  uploadId: 403439

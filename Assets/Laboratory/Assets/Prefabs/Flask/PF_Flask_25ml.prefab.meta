@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6007d85dfa94a044d86099b8b140d59d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Flask/PF_Flask_25ml.prefab
+  uploadId: 403439

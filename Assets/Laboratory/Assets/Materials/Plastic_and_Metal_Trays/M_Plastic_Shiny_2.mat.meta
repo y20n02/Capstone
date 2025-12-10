@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f929e4e83ff41914789506f1d3749310
+timeCreated: 1553589525
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Plastic_and_Metal_Trays/M_Plastic_Shiny_2.mat
+  uploadId: 403439

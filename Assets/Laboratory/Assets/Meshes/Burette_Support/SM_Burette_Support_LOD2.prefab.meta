@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3fdd2b3bc38d54c4483e09b0a6d5e44c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Burette_Support/SM_Burette_Support_LOD2.prefab
+  uploadId: 403439

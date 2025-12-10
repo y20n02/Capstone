@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b8bd4bad3e59df34198a0488b8e5153c
+timeCreated: 1554196857
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Calibrated_Volumetric_Pipettes/PF_Calibrated_Pipette_10ml_B.prefab
+  uploadId: 403439

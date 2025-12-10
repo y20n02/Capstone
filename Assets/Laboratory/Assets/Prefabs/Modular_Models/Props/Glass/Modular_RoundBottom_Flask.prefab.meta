@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1fc8fe7757d9b8d419e42c8acb7aa09e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Props/Glass/Modular_RoundBottom_Flask.prefab
+  uploadId: 403439

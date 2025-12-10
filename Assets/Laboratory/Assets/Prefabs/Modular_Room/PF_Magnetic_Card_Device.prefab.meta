@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 482f35191493ce947a98b17868bc4b4e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Room/PF_Magnetic_Card_Device.prefab
+  uploadId: 403439

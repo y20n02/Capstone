@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c465074273db214c919fa447cbc4360
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Vent/Modular_Duct_Large.prefab
+  uploadId: 403439

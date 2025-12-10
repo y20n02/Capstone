@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce72140f7ce70da4d836781e0cb235e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Fumehood/PF_Fumehood.prefab
+  uploadId: 403439

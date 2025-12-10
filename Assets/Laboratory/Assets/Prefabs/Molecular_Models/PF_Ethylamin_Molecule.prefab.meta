@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7db3a65b99754864cb89bfc139a31c99
+timeCreated: 1552555330
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Molecular_Models/PF_Ethylamin_Molecule.prefab
+  uploadId: 403439

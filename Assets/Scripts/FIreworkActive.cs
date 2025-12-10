@@ -84,7 +84,11 @@ public class FireworkActivator : MonoBehaviour
 
         // 파티클 루프 중지
         for (int i = 0; i < fireworks.Length; i++)
-            fireworks[i].loop = false;
+        {
+            var main = fireworks[i].main;
+            main.loop = false;
+        }
+
 
         while (t < fadeOutTime)
         {

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c5bebd39efbbd29429a9fed50decf9f4
+timeCreated: 1551795619
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Desks_and_Shelves/PF_Desk2.prefab
+  uploadId: 403439

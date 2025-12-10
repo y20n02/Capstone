@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b62341da57819f845bd4cb4592590c89
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Duct/PF_Duct_Aeration_Grid_Small.prefab
+  uploadId: 403439

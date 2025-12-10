@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ad7d335a890875b4da0d1fdf255416f7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Glassware/SM_Glassware_LOD1.prefab
+  uploadId: 403439

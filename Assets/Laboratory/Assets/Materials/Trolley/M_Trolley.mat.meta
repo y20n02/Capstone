@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 53bde43563c6f9e4fb939b143b5db56c
+timeCreated: 1552904815
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Trolley/M_Trolley.mat
+  uploadId: 403439

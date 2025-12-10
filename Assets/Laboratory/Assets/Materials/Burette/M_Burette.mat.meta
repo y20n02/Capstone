@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e95ea4a15200d44797a790c3c54f28d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Burette/M_Burette.mat
+  uploadId: 403439

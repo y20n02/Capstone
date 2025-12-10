@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 12238a1756b11fc468aa69e5dc899c05
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Room/PF_Pillar.prefab
+  uploadId: 403439

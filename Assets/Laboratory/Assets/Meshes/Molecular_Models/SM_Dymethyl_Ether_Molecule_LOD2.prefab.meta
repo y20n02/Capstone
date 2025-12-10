@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d1118f2af59da86408b6e97a1bf62f41
+timeCreated: 1552554035
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Molecular_Models/SM_Dymethyl_Ether_Molecule_LOD2.prefab
+  uploadId: 403439

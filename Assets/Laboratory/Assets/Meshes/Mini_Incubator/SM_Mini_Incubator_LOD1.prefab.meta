@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8abe5ba584691f469084a4b8cecbe44
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Mini_Incubator/SM_Mini_Incubator_LOD1.prefab
+  uploadId: 403439

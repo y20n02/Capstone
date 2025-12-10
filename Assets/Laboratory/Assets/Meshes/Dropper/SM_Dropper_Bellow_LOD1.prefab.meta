@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ae7fc872eb2e264698d0ad21b3359ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Dropper/SM_Dropper_Bellow_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b09d4bc3bb228724ebefe66746faf1bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Laboratory_Sink/PF_Laboratory_Sink.prefab
+  uploadId: 403439

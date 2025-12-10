@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d276f47b10a77a74880f44df2318f271
+timeCreated: 1552382008
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Test_Tubes/PF_Test_Tube_Pattern1.prefab
+  uploadId: 403439

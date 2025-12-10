@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 65589184a67d1b24eb01a2571180358f
+timeCreated: 1553787855
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/RoundBottom_Flask/PF_CorkSupport_B.prefab
+  uploadId: 403439

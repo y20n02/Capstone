@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6397ebdcf10314b43b41ccaf2f3cef59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Bain_Marie/M_Bain_Marie_Opaque.mat
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34b4453aaa67af6458330a7b48f3a4dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Duct/SM_Duct_Ventilation_LOD2.prefab
+  uploadId: 403439

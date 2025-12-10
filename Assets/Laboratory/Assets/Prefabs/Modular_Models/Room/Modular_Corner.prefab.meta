@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93e919804dedb7246934863169ad622d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Room/Modular_Corner.prefab
+  uploadId: 403439

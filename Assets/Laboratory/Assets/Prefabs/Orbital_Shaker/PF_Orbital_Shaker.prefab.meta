@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8c6a2943b5ef6f74eb17817f155d8f85
+timeCreated: 1552645084
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Orbital_Shaker/PF_Orbital_Shaker.prefab
+  uploadId: 403439

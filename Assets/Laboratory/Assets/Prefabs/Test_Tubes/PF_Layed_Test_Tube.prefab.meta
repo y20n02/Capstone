@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e000c8b62617b7945a4110aa0b46f58b
+timeCreated: 1552381997
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Test_Tubes/PF_Layed_Test_Tube.prefab
+  uploadId: 403439

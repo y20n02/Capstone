@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0fd03c02bf2fdd640b335c513b7e8442
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Props/Glass/Modular_Beaker.prefab
+  uploadId: 403439

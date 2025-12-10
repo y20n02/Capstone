@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 67ceeac2a4c66ae45a259a7437ad03a8
+timeCreated: 1553245007
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Chairs_and_Stool/M_Stool.mat
+  uploadId: 403439

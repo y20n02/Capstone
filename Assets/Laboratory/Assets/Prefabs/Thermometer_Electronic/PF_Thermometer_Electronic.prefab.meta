@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f9a408228952fb43b28d15d6cd6b8d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Thermometer_Electronic/PF_Thermometer_Electronic.prefab
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8e51bcf2cb9a1a94ebec164befea8cab
+timeCreated: 1553247785
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Chairs_and_Stool/PF_Chair.prefab
+  uploadId: 403439

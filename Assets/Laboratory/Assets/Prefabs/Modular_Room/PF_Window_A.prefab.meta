@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 582fc455f6c522249b89376b2b92092f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Room/PF_Window_A.prefab
+  uploadId: 403439

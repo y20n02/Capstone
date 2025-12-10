@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 27e515a95c0d13b4fb286f1be0b8d42b
+timeCreated: 1553005670
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Thermocycler/SM_Thermocycler_LOD1.prefab
+  uploadId: 403439

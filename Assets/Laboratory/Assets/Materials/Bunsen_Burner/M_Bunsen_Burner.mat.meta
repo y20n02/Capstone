@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af7ac9cc5c2530d4d8d768f12599dff0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Bunsen_Burner/M_Bunsen_Burner.mat
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ea6fc3e4d665ac4ebef3737a823feef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Fridge/SM_Fridge_LOD2.prefab
+  uploadId: 403439

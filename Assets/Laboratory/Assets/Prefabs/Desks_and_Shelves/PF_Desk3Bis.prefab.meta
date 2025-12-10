@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d16a8e8490221a043ac2dfe787d4de7d
+timeCreated: 1551795612
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Desks_and_Shelves/PF_Desk3Bis.prefab
+  uploadId: 403439

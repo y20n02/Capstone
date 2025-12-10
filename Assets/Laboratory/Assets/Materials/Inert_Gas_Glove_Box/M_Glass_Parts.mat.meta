@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ffa50992169fd564d8566e05545a9613
+timeCreated: 1554798800
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Inert_Gas_Glove_Box/M_Glass_Parts.mat
+  uploadId: 403439

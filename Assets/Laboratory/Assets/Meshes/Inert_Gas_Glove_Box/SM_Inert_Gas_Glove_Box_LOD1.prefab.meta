@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 62b613d7def1fcb4eb050cf0dacc79f4
+timeCreated: 1554801109
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Inert_Gas_Glove_Box/SM_Inert_Gas_Glove_Box_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 51781a13af1509e4a932e4c0fe62e43d
+timeCreated: 1551863694
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Spectrometer/M_Spectrometer_Transparency.mat
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1474cdead17bf5945ac058a6c976abb5
+timeCreated: 1553607355
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Plastic_and_Metal_Trays/PF_Metal_Deep_Tray_Large.prefab
+  uploadId: 403439

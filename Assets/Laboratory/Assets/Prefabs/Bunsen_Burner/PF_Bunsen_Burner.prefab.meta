@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 876542ffc89d59a4cb4cd5a4b460a987
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Bunsen_Burner/PF_Bunsen_Burner.prefab
+  uploadId: 403439

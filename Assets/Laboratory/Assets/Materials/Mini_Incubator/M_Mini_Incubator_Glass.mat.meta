@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6fb060dcb0a77e4da3f4dac98d8401b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Mini_Incubator/M_Mini_Incubator_Glass.mat
+  uploadId: 403439

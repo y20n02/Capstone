@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 516411866be43d24e8db9e1ec237f6e0
+timeCreated: 1554121330
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/RoundBottom_Flask/SM_RoundBottom_Flask100ml_LOD1.prefab
+  uploadId: 403439

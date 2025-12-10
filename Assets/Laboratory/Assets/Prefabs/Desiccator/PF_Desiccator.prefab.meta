@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2245eb836574d145a3c1cd51fa757b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Desiccator/PF_Desiccator.prefab
+  uploadId: 403439

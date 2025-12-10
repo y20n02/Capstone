@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37756b26f1d2875408c35d0f886917c9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Duct/M_Duct_Galvanize.mat
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 23c6508fb76a8804884901a7d2c9b4d8
+timeCreated: 1552554795
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Molecular_Models/SM_Molecules_Pattern2_LOD1.prefab
+  uploadId: 403439

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: af89a47426796d14f937035874fef8bf
+timeCreated: 1552553754
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Molecular_Models/SM_Methan_Molecule_LOD2.prefab
+  uploadId: 403439

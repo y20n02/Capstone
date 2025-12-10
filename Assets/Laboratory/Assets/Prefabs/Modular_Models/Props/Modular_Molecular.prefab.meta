@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d02446d3347ce974c95b53fb06af3e34
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Models/Props/Modular_Molecular.prefab
+  uploadId: 403439

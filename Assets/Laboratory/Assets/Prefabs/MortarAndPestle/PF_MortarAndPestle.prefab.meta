@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6178d2771f7409c478426052a82d8bd2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/MortarAndPestle/PF_MortarAndPestle.prefab
+  uploadId: 403439

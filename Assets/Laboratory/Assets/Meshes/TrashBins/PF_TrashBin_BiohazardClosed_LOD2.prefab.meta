@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 05688d0a5d183e045b27d727c76b53e2
+timeCreated: 1553767201
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/TrashBins/PF_TrashBin_BiohazardClosed_LOD2.prefab
+  uploadId: 403439

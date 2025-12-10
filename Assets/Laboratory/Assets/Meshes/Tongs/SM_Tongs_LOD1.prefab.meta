@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f662c549e6942604c9c9429ed3bfd2ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Tongs/SM_Tongs_LOD1.prefab
+  uploadId: 403439

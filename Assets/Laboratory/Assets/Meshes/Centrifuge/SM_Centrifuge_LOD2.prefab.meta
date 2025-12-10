@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 361cd07e8e2598846b797309cb72a1bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Centrifuge/SM_Centrifuge_LOD2.prefab
+  uploadId: 403439

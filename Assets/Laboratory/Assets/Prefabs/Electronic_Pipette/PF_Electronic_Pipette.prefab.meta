@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1027c7e6cf8c69246ad076c08d17d39e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Electronic_Pipette/PF_Electronic_Pipette.prefab
+  uploadId: 403439

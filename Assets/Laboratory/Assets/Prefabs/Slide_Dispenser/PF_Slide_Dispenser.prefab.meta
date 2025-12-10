@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f93c5e740b878134fa58762f44464560
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Slide_Dispenser/PF_Slide_Dispenser.prefab
+  uploadId: 403439

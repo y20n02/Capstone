@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e89943399fc6d3b449301bd463a81d3e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Bain_Marie/SM_Bain_Marie_LOD1.prefab
+  uploadId: 403439

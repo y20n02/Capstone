@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f930acfc100348843abb8ea5bc90dc18
+timeCreated: 1551795638
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Desks_and_Shelves/PF_Double_Glass_Shelf_Structure.prefab
+  uploadId: 403439

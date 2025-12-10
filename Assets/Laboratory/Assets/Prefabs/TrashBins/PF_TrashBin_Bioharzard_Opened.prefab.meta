@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1cfb07b37e232a94b8bb34db3207176c
+timeCreated: 1553767680
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/TrashBins/PF_TrashBin_Bioharzard_Opened.prefab
+  uploadId: 403439

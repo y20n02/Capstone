@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f64bf0ecdbba9004091127aa982126d2
+timeCreated: 1551880629
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Scalpels/SM_Scalpel_LOD1.prefab
+  uploadId: 403439

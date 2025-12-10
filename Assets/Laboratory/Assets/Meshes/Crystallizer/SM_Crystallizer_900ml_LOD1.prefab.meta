@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2609e089488527e4eb1152c13a83639a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Crystallizer/SM_Crystallizer_900ml_LOD1.prefab
+  uploadId: 403439

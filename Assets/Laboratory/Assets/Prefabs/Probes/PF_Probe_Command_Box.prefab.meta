@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1931fb91bf54b6243a44ab9fcd906cb1
+timeCreated: 1553788257
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Probes/PF_Probe_Command_Box.prefab
+  uploadId: 403439

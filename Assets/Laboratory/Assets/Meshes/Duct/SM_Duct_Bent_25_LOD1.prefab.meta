@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a57b75ac1ec7d624fba3cadbc77d1146
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Duct/SM_Duct_Bent_25_LOD1.prefab
+  uploadId: 403439

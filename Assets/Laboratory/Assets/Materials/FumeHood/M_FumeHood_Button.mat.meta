@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0cfb032beb2ee5449336d30d25baf1a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/FumeHood/M_FumeHood_Button.mat
+  uploadId: 403439

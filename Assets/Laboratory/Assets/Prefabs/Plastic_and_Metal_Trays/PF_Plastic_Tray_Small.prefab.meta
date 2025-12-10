@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 16be90084a15807478cfa38eb44bdbec
+timeCreated: 1553607375
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Plastic_and_Metal_Trays/PF_Plastic_Tray_Small.prefab
+  uploadId: 403439

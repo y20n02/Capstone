@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6d8b45362c8792849bb793c77181e99c
+timeCreated: 1553766538
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/TrashBins/PF_TrashBin_Sharp.prefab
+  uploadId: 403439

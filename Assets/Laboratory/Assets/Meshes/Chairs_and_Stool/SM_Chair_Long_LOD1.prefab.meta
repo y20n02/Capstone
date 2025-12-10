@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ec57db44d1ba58048886c768daf257ba
+timeCreated: 1553247541
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Chairs_and_Stool/SM_Chair_Long_LOD1.prefab
+  uploadId: 403439

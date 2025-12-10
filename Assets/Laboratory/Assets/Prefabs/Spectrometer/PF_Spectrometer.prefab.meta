@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f86eb3b85c812de488ce8af66873a130
+timeCreated: 1551878510
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Spectrometer/PF_Spectrometer.prefab
+  uploadId: 403439

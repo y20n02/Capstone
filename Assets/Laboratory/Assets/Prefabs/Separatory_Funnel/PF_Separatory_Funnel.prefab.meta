@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d4e011d31ff8054ab4fc9f3591bbfb2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Separatory_Funnel/PF_Separatory_Funnel.prefab
+  uploadId: 403439

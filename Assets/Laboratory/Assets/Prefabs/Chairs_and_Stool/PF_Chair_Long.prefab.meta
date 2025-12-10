@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 83feee4270769504cb1d0c1211cccfd2
+timeCreated: 1553247679
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Chairs_and_Stool/PF_Chair_Long.prefab
+  uploadId: 403439

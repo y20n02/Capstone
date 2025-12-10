@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f07fc6d9660986b489ac5d35edb14a9f
+timeCreated: 1554798800
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Inert_Gas_Glove_Box/M_Opaque_Parts.mat
+  uploadId: 403439

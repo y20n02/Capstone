@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 232153b8279f25049ad8d336c4e00371
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Duct/PF_Duct_Bent_75.prefab
+  uploadId: 403439

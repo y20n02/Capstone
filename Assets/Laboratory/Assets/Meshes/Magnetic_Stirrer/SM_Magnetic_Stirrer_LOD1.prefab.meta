@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 127c1c9dbd21a8d4581275ee0eabe256
+timeCreated: 1552471871
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Magnetic_Stirrer/SM_Magnetic_Stirrer_LOD1.prefab
+  uploadId: 403439

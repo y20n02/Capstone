@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a57c0c65935d00647b6fd98203e51786
+timeCreated: 1553607368
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Plastic_and_Metal_Trays/PF_Plastic_Container.prefab
+  uploadId: 403439

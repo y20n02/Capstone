@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe3bfa7563e840a48b248a25e12ff9a2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Modular_Room/PF_Floor_Ceiling.prefab
+  uploadId: 403439

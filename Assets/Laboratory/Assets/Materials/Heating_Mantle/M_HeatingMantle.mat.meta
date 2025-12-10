@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 90736dfde7bfdbe4fad7c3cc29ba5b6a
+timeCreated: 1553606411
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Heating_Mantle/M_HeatingMantle.mat
+  uploadId: 403439

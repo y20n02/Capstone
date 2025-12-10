@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2f78481efb5605543a80696bd62ec8dd
+timeCreated: 1553787766
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Probes/SM_Probe_Command_Box_LOD1.prefab
+  uploadId: 403439

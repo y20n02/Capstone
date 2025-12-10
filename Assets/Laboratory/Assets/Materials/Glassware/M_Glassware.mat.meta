@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c54a4aec34753884387cb619f54f4b6a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Glassware/M_Glassware.mat
+  uploadId: 403439

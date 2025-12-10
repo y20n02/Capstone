@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 213aa3da9b5889843ac7dddcb7c9ef7b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Cristallizer/PF_Flask_Burette.prefab
+  uploadId: 403439

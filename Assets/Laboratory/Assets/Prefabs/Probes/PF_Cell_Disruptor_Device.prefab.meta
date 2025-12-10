@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fdbf563c1caf15a4c98611329d28c803
+timeCreated: 1553787609
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Probes/PF_Cell_Disruptor_Device.prefab
+  uploadId: 403439

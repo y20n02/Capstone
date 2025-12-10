@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b1adabf1bcce7848b836f4dc429808f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Petri_Dish/PF_Petri_Dish_Large.prefab
+  uploadId: 403439

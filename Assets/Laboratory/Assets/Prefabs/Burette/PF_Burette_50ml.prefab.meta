@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab2f0d49d44a8e8488b973311eb22794
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Burette/PF_Burette_50ml.prefab
+  uploadId: 403439

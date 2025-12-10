@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99d4569aa3021b04c9b9b7d5252e5d1f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Erlenmeyer/SM_Erlenmeyer_Flask_100ml_LOD1.prefab
+  uploadId: 403439

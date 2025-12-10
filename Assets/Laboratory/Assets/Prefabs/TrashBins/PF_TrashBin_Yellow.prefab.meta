@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b73dfd56d09fb2941b1e529586fed972
+timeCreated: 1553766320
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/TrashBins/PF_TrashBin_Yellow.prefab
+  uploadId: 403439

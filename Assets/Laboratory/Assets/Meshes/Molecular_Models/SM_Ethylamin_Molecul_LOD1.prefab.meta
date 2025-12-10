@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 999389b26ff8982498d491609eb4250d
+timeCreated: 1552553857
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Molecular_Models/SM_Ethylamin_Molecul_LOD1.prefab
+  uploadId: 403439

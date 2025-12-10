@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9362a969e90e57478d2b59af39ab5c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Burette/SM_Burette_25ml_LOD1.prefab
+  uploadId: 403439

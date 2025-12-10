@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fd5e89f4bd93b374bae457936e7cc14a
+timeCreated: 1553593899
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Plastic_and_Metal_Trays/SM_Metal_Tray_LOD2.prefab
+  uploadId: 403439

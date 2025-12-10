@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5ad559e63824ede49bcf2a0ece8df7f3
+timeCreated: 1552381400
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Test_Tubes/SM_Test_Tube_Support_LOD2.prefab
+  uploadId: 403439

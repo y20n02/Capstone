@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 20038cd0df5352b478153bc16f0d9607
+timeCreated: 1553857338
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Heating_Mantle/SM_HeatingMantle_LOD1.prefab
+  uploadId: 403439

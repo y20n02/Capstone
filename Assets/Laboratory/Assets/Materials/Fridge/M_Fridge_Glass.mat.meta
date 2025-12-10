@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc15743be5b960c45bad853d2c595961
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Fridge/M_Fridge_Glass.mat
+  uploadId: 403439

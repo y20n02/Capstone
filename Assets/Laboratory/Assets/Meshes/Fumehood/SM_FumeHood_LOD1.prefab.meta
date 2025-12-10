@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f950721b2d0219543bb075bb9f373f23
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Fumehood/SM_FumeHood_LOD1.prefab
+  uploadId: 403439

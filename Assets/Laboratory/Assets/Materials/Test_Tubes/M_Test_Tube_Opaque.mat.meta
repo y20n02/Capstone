@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 402846ddbc1aa6a4281506b31e64e25a
+timeCreated: 1551947567
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Materials/Test_Tubes/M_Test_Tube_Opaque.mat
+  uploadId: 403439

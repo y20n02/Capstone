@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7e67085f65e914f4fa97d6e378da3bcd
+timeCreated: 1553607366
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Prefabs/Plastic_and_Metal_Trays/PF_Plastic_Basin_Square_Group.prefab
+  uploadId: 403439

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba036f36ad66d654bbbd4e229bb22fa1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144317
+  packageName: Archviz Laboratory Pack
+  packageVersion: 2.0
+  assetPath: Assets/Laboratory/Assets/Meshes/Pipet_Filler/SM_Pipet_Filler_LOD1.prefab
+  uploadId: 403439
