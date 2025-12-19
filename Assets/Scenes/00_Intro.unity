@@ -413,6 +413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CircleLoading
   loadingBar: {fileID: 1223807746}
+  startSfx: {fileID: 8300000, guid: 36f429183d2ee2b43a18570e5077000f, type: 3}
+  volume: 1
 --- !u!4 &567217473
 Transform:
   m_ObjectHideFlags: 0
@@ -447,7 +449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &712041331
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -552,6 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad9f99f96e79657488524943470da9ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RippleDistortionController
+  distortionObject: {fileID: 0}
   targetMaterial: {fileID: 2100000, guid: a0b33401f90038e45946a25299e0ca26, type: 2}
   rippleCountProp: _RippleCount
   rippleSpeedProp: _RippleSpeed
@@ -5354,6 +5357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4642236616660178976, guid: 19df554393d2e5c4285cd9065e9b6bce, type: 3}
+      propertyPath: m_text
+      value: Put your hands on the sensor
+      objectReference: {fileID: 0}
     - target: {fileID: 5379054416166583141, guid: 19df554393d2e5c4285cd9065e9b6bce, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5655,6 +5662,11 @@ MonoBehaviour:
   OnAccumulateComplete:
     m_PersistentCalls:
       m_Calls: []
+  paperParticle: {fileID: 0}
+  accumulateLoopParticle: {fileID: 0}
+  accumulateSparkParticle: {fileID: 0}
+  sparkRateMin: 2
+  sparkRateMax: 14
   stimulateTargetCount: 15
   stimulateSwipeHorizontalThreshold: 1.5
   stimulateSwipeVerticalThreshold: 1.5

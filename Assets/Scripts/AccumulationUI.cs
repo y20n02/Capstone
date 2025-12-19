@@ -3,31 +3,33 @@ using UnityEngine;
 
 public class AccumulationIntroUI : MonoBehaviour
 {
-    [Header("UI ÂüÁ¶")]
-    public CanvasGroup introGroup;          // AccumulationCanvas¿¡ ÀÖ´Â CanvasGroup
+    [Header("UI ê·¸ë£¹")]
+    public CanvasGroup introGroup;          // AccumulationCanvasì— ìˆëŠ” CanvasGroup
 
-    [Header("Å¸ÀÌ¹Ö ¼³Á¤")]
-    public float delayBeforeShow = 2.5f;    // ¾À µé¾î¿À°í ³ª¼­ ´ë±â ½Ã°£ (2~3ÃÊ)
-    public float fadeTime = 1.0f;           // ÆäÀÌµå ÀÎ/¾Æ¿ô ½Ã°£
-    public float visibleTime = 5.0f;        // È­¸é¿¡ À¯ÁöµÇ´Â ½Ã°£
+    [Header("íƒ€ì´ë° ì„¤ì •")]
+    public float delayBeforeShow = 2.5f;    // (ì˜ìƒ ëë‚œ ë’¤) UI ë‚˜ì˜¤ê¸° ì „ ëŒ€ê¸° ì‹œê°„
+    public float fadeTime = 1.0f;           // í˜ì´ë“œ ì¸/ì•„ì›ƒ ì‹œê°„
+    public float visibleTime = 5.0f;        // í™”ë©´ì— ë–  ìˆëŠ” ì‹œê°„
 
-    [Header("ÀÎÆ®·Î ³¡³­ µÚ ÄÓ ½ºÅ©¸³Æ®µé")]
-    public MonoBehaviour[] scriptsToEnable; // ¸ğ¼Ç ÀÎ½Ä ½ºÅ©¸³Æ®µé µå·¡±×ÇØ¼­ ³Ö±â
+    [Header("ì¸íŠ¸ë¡œ ëë‚œ ë’¤ ì¼¤ ìŠ¤í¬ë¦½íŠ¸ë“¤")]
+    public MonoBehaviour[] scriptsToEnable; // ì˜ˆ: MotionTrigger ê°™ì€ ê²ƒë“¤
 
     public bool IntroFinished { get; private set; } = false;
 
+    bool introStarted = false; // ì¤‘ë³µ ì‹¤í–‰ ë°©ì§€
+
     void Start()
     {
-        // 1) ÀÎÆ®·Î UI´Â Ã³À½¿¡ "º¸ÀÌÁö ¾Ê°Ô"¸¸ ¸¸µç´Ù (GameObject´Â ²ôÁö X)
+        // 1) ì¸íŠ¸ë¡œ UIë¥¼ "ë³´ì´ì§€ ì•Šê²Œ" ì¤€ë¹„
         if (introGroup != null)
         {
-            introGroup.gameObject.SetActive(true);   // Ç×»ó ÄÑµĞ »óÅÂ¿¡¼­
-            introGroup.alpha = 0f;                   // Åõ¸íÇÏ°Ô ¼û±â±â
+            introGroup.gameObject.SetActive(true);   // í•­ìƒ ì”¬ ì•ˆì— ì‚´ì•„ìˆê²Œ
+            introGroup.alpha = 0f;                   // íˆ¬ëª…
             introGroup.interactable = false;
             introGroup.blocksRaycasts = false;
         }
 
-        // 2) ¸ğ¼Ç °ü·Ã ½ºÅ©¸³Æ®µéÀº ÀÏ´Ü ²¨µÎ±â
+        // 2) ë‚˜ì¤‘ì— ì¼¤ ìŠ¤í¬ë¦½íŠ¸ë“¤ ì¼ë‹¨ ë¹„í™œì„±í™”
         if (scriptsToEnable != null)
         {
             foreach (var s in scriptsToEnable)
@@ -36,19 +38,30 @@ public class AccumulationIntroUI : MonoBehaviour
             }
         }
 
-        // 3) ÀÎÆ®·Î ¿¬Ãâ ½ÃÀÛ
+        // âŒ ì—¬ê¸°ì„œëŠ” ì½”ë£¨í‹´ ì‹œì‘ ì•ˆ í•¨!
+        // StartCoroutine(IntroRoutine());  <-- ì‚­ì œ
+    }
+
+    /// <summary>
+    /// ğŸ”¹ ì˜ìƒì´ ë‹¤ ëë‚œ í›„, ì™¸ë¶€ì—ì„œ ì´ í•¨ìˆ˜ë¥¼ í•œ ë²ˆ í˜¸ì¶œí•´ì£¼ë©´
+    ///    delay â†’ í˜ì´ë“œì¸ â†’ visibleTime â†’ í˜ì´ë“œì•„ì›ƒ â†’ ìŠ¤í¬ë¦½íŠ¸ enable ìˆœì„œë¡œ ì§„í–‰ë¨
+    /// </summary>
+    public void StartIntro()
+    {
+        if (introStarted) return;
+        introStarted = true;
+
         StartCoroutine(IntroRoutine());
     }
 
     IEnumerator IntroRoutine()
     {
-        // 1) ¾À µé¾î¿À°í Àá±ñ ±â´Ù·È´Ù°¡
+        // 1) ì˜ìƒ ëë‚œ ë’¤, ì•½ê°„ì˜ ì—¬ìœ  ì‹œê°„
         yield return new WaitForSeconds(delayBeforeShow);
 
-        // 2) ÀÎÆ®·Î UI ÆäÀÌµå ÀÎ
+        // 2) ì¸íŠ¸ë¡œ UI í˜ì´ë“œ ì¸
         if (introGroup != null)
         {
-            // º¸ÀÌµµ·Ï ÄÑµĞ µÚ ¼­¼­È÷ ³ªÅ¸³ª°Ô
             introGroup.gameObject.SetActive(true);
             yield return Fade(0f, 1f, fadeTime);
 
@@ -56,10 +69,10 @@ public class AccumulationIntroUI : MonoBehaviour
             introGroup.blocksRaycasts = true;
         }
 
-        // 3) UI¸¦ visibleTime ¸¸Å­ À¯Áö
+        // 3) UIê°€ visibleTime ë§Œí¼ ë–  ìˆë„ë¡
         yield return new WaitForSeconds(visibleTime);
 
-        // 4) ÆäÀÌµå ¾Æ¿ô
+        // 4) í˜ì´ë“œ ì•„ì›ƒ
         if (introGroup != null)
         {
             introGroup.interactable = false;
@@ -67,11 +80,10 @@ public class AccumulationIntroUI : MonoBehaviour
 
             yield return Fade(1f, 0f, fadeTime);
 
-            // ÇÊ¿äÇÏ¸é ¿ÏÀüÈ÷ ²ô°í ½ÍÀ» ¶§¸¸ »ç¿ë (¿©±ä ÄÚ·çÆ¾ ³¡³ª´Â ½ÃÁ¡ÀÌ¶ó ±¦ÂúÀ½)
             introGroup.gameObject.SetActive(false);
         }
 
-        // 5) ÀÌÁ¦ºÎÅÍ ¸ğ¼Ç ÀÎ½Ä ½ÃÀÛ!
+        // 5) ì¸íŠ¸ë¡œ ì™„ì „ ì¢…ë£Œ â†’ ìŠ¤í¬ë¦½íŠ¸ë“¤ í™œì„±í™”
         IntroFinished = true;
 
         if (scriptsToEnable != null)

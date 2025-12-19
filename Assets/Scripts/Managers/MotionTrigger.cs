@@ -266,39 +266,45 @@ public class MotionTrigger : MonoBehaviour
     // Intro: 손 올려두고 5초 유지
     // =========================================================
     void UpdateIntro(float speed)
+{
+    if (introDone) return;   // 이미 끝났으면 무시
+
+    if (speed < introSpeedThreshold)
     {
-        if (introDone) return;   // 이미 끝났으면 무시
-
-        if (speed < introSpeedThreshold)
+        // 🔥 로딩이 "처음 시작되는 순간" : 타이머가 0에서 증가하기 시작할 때
+        if (introSteadyTimer == 0f && introLoading != null)
         {
-            // 손이 거의 안 움직이면 타이머 증가
-            introSteadyTimer += Time.deltaTime;
-
-            // 0~1 비율 계산해서 로딩 UI 채우기
-            float ratio = Mathf.Clamp01(introSteadyTimer / introRequiredSteadyTime);
-            if (introLoading != null)
-                introLoading.SetProgress(ratio);
-
-            // 5초 채워졌으면 완료 처리
-            if (introSteadyTimer >= introRequiredSteadyTime)
-            {
-                introDone = true;
-                Debug.Log("[Intro] 5초 유지 + 로딩 100% 완료!");
-
-                OnIntroComplete?.Invoke();       // 필요하면 그대로 사용
-
-                // 인트로 이후 흐름 (체크 → 왜곡 5초 → 다음 씬)
-                StartCoroutine(IntroFlow());
-            }
+            introLoading.PlayStartSoundOnce();
         }
-        else
+
+        // 손이 거의 안 움직이면 타이머 증가
+        introSteadyTimer += Time.deltaTime;
+
+        // 0~1 비율 계산해서 로딩 UI 채우기
+        float ratio = Mathf.Clamp01(introSteadyTimer / introRequiredSteadyTime);
+        if (introLoading != null)
+            introLoading.SetProgress(ratio);
+
+        // 5초 채워졌으면 완료 처리
+        if (introSteadyTimer >= introRequiredSteadyTime)
         {
-            // 손이 흔들리면 타이머/로딩 리셋
-            introSteadyTimer = 0f;
-            if (introLoading != null)
-                introLoading.ResetProgress();
+            introDone = true;
+            Debug.Log("[Intro] 5초 유지 + 로딩 100% 완료!");
+
+            OnIntroComplete?.Invoke();
+
+            StartCoroutine(IntroFlow());
         }
     }
+    else
+    {
+        // 손이 흔들리면 타이머/로딩 리셋
+        introSteadyTimer = 0f;
+        if (introLoading != null)
+            introLoading.ResetProgress();
+    }
+}
+
 
     // =========================================================
     // Accumulate: 손바닥 아래 + 위로 빠르게 올릴 때 "쌓았다" 한 번
@@ -503,7 +509,7 @@ public class MotionTrigger : MonoBehaviour
 
             // 1) Burst 안내 UI 숨기기
             if (burstUI != null)
-                burstUI.HideInstant();
+            burstUI.FadeOutAndDisable();
 
             Debug.Log($"[Burst] 표출 연출 실행 (단일) / count={stimulateCount}, ratio={lastStimulateRatio:F2}");
 

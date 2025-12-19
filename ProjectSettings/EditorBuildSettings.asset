@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: af796f8b59e96d946801c67caee4cfa6
   - enabled: 1
     path: Assets/Scenes/01_Lab.unity
-    guid: 7222097744f4e994d8ff6e5188551052
+    guid: 39c0088e86d89694392e89703e72aede
   - enabled: 1
     path: Assets/Scenes/02_Accumulate.unity
     guid: 4a621333d3f475147b4c4a08c66e3a86
@@ -22,17 +22,17 @@ EditorBuildSettings:
     guid: 58863d7a8832f29438c92143c6cbfc1b
   - enabled: 1
     path: Assets/Scenes/04_Burst.unity
-    guid: 023695b5ca20bc443a4c2299ae67b6ea
+    guid: 6e18e113898d93d498335710ac6e3a51
   - enabled: 1
     path: Assets/Scenes/05_Purify.unity
     guid: 764d69ea07d85c540ba9fecbf1d34adf
   - enabled: 1
     path: Assets/Scenes/06_Outro.unity
     guid: 92f3b6ab6cfcdff419a89301b1b0b28b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/90_Test_LeapMotion.unity
     guid: 791c3d3b6a25937408dfd552d64af069
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/91_Test_TDLink.unity
     guid: 7f2e7695d96c850489d9def5ceffbbf9
   m_configObjects:
