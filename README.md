@@ -1,6 +1,6 @@
 # Capstone Project
 
-카타르시스 기반 인터랙티브 미디어아트 프로젝트 (Unity)
+카타르시스 기반 인터랙티브 미디어아트 프로젝트 (Unity + Leap Motion)
 
 ---
 
