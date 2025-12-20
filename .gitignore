@@ -22,6 +22,8 @@
 *.opendb
 *.VC.db
 .idea/
+*.mp4
+*.abc
 
 # Crash / report files
 sysinfo.txt
