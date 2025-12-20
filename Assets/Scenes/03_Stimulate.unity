@@ -42028,6 +42028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StimulationCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6601431822265367931, guid: c17217feb06d0d74a91793f2019ee64c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
